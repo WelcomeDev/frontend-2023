@@ -1,0 +1,70 @@
+/*вносим базовые переменные шрифтов, чтобы переиспользовать по проекту*/
+.heading-1, h1,
+.heading-2, h2,
+.subtitle-1,
+.body-1,
+.body-1--semibold,
+.body-2 {
+    font-family: Inter, sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 120%;
+}
+
+.heading-1, h1 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.heading-2, h2 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.subtitle-1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.body-1 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.body-1--semibold {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.body-2 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/*про css-переменные будем говорить позже, но уже сейчас буду их использовать.*/
+/*если будут проблемы с ними - просто пишите без них константы*/
+/*что такое ":root" поясню позже. Суть в том, что это прикрепляет к корню страницу css-переменные, чтобы они были доступны везде */
+:root {
+    --const-black: #000;
+    --const-white: #fff;
+
+    --bg-1: #F1F9FD;
+
+    --green-primary: #1ACFAA;
+    --green-light: #D1F5EE;
+
+    --yellow-primary: #F5C861;
+    --yellow-light: #FDF4DF;
+
+    --blue-primary: #514FAE;
+    --blue-light: #DCDCEF;
+    --blue-dark: #413F8B;
+
+    --violet-primary: #AB87FF;
+    --violet-light: #EEE7FF;
+}
